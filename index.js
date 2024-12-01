@@ -321,19 +321,19 @@ app.use((req, res, next) => {
 app.use(express.static(path.join(__dirname, "static")));
 
 const routes = [
-  { path: "/a", file: "apps.html" },
-  { path: "/g", file: "art.html" },
-  { path: "/s", file: "settings.html" },
-  { path: "/p", file: "science.html" },
-  { path: "/!", file: "!.html" },
-  { path: "/", file: "index.html" },
-  { path: "/d", file: "dashboard.html" },
-  { path: "/e", file: "english.html" },
-  { path: "/-", file: "math.html" },
-  { path: "/profile", file: "account.html" },
-  { path: "/login", file: "/assets/404/login.html" },
-  { path: "/signup", file: "/assets/404/signup.html" },
-  { path: "/l", file: "/assets/404/loading.html" },
+  { path: "/a.pdf", file: "apps.html" },
+  { path: "/g.pdf", file: "art.html" },
+  { path: "/s.pdf", file: "settings.html" },
+  { path: "/p.pdf", file: "science.html" },
+  { path: "/!.pdf", file: "!.html" },
+  { path: "/home.pdf", file: "index.html" },
+  { path: "/d.pdf", file: "dashboard.html" },
+  { path: "/e.pdf", file: "english.html" },
+  { path: "/-.pdf", file: "math.html" },
+  { path: "/profile.pdf", file: "account.html" },
+  { path: "/login.pdf", file: "/assets/404/login.html" },
+  { path: "/signup.pdf", file: "/assets/404/signup.html" },
+  { path: "/l.pdf", file: "/assets/404/loading.html" },
 ];
 
 routes.forEach((route) => {
